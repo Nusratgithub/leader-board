@@ -23,7 +23,7 @@ main{
 ul span{
   color: #fff;
   font-size: 25px;
-  padding-right: 30%;
+  padding-right: 35%;
 }
 nav{
   background-color: #562eff;
@@ -33,7 +33,7 @@ nav{
 nav ul {
   display: flex;
   justify-content: flex-end;
-  padding-right: 20%;
+  padding-right: 15%;
 }
 
 nav li {
