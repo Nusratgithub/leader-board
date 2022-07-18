@@ -1,4 +1,6 @@
 body{
+  margin: 0;
+  padding: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #f3f1ff;
 }
@@ -14,6 +16,46 @@ main{
   margin-top: 25px;
   border-radius: 5px;
 }
+/* header section start here */
+.logo{
+  margin-right: 15px;
+}
+ul span{
+  color: #fff;
+  font-size: 25px;
+  padding-right: 36%;
+}
+nav{
+  background-color: #562eff;
+  padding: 25px;
+  
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20%;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 0px 10px;
+}
+nav li a:hover {
+ color: lightsteelblue;
+ font-size: 22px;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+nav ul img{
+  width: 60px;
+  height: 60px;
+}
+
+
 
 /* top players style */
 .top-players{
@@ -125,6 +167,10 @@ hr{
   .container{
     width: 100%;
   }
+  .section-title {
+      font-size: 30px;
+      text-align: center;
+  }
   .players,.blogs{
     grid-template-columns: repeat(1,1fr);
   }
@@ -133,7 +179,9 @@ hr{
     align-items: center;
   }
   .courses{
-    grid-template-columns: repeat(1,320px)
+    grid-template-columns: repeat(1,320px);
+    align-items: center;
+    justify-content: center;
 
   }
   .course{
@@ -159,7 +207,7 @@ hr{
   }
 
   .courses {
-    grid-template-columns: repeat(1, 320px)
+    grid-template-columns: repeat(2, 320px)
   }
 
   .course {
