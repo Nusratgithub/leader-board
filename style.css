@@ -33,7 +33,7 @@ nav{
 nav ul {
   display: flex;
   justify-content: flex-end;
-  padding-right: 6%;
+  padding-right: 10%;
 }
 
 nav li {
