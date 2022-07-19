@@ -23,7 +23,7 @@ main{
 ul span{
   color: #fff;
   font-size: 25px;
-  padding-right: 35%;
+  padding-right: 44%;
 }
 nav{
   background-color: #562eff;
@@ -33,7 +33,7 @@ nav{
 nav ul {
   display: flex;
   justify-content: flex-end;
-  padding-right: 15%;
+  padding-right: 6%;
 }
 
 nav li {
@@ -167,6 +167,24 @@ hr{
   .container{
     width: 100%;
   }
+  ul{
+    padding-left:10px;
+  }
+  nav ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   ul li{
+    width: 100%;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    margin: 10px;
+    text-align:center;
+  }
+  nav span{
+    display: none;
+  }
   .section-title {
       font-size: 30px;
       text-align: center;
@@ -192,6 +210,31 @@ hr{
 @media screen and (min-width:689px) and (max-width:992px) {
   .container {
     width: 100%;
+  }
+  ul {
+     padding-left: 10px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li {
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  nav span {
+    display: none;
+  }
+  .section-title {
+    font-size: 30px;
+    text-align: center;
   }
 
   .players,
